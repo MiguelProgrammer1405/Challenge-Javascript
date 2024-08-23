@@ -65,7 +65,7 @@ const arrayHandler = (array1, array2) => {
 };
 
 array1 = [2, 4, 7, 8, 9];
-array2 = [7, 8, 6, 1, 2, 9];
+array2 = [7, 8, 6, 1, 2];
 
 // arrayHandler(array1, array2);
 
@@ -80,3 +80,5 @@ const esPalindromo = (string) => {
     return false;
   }
 };
+
+console.log(esPalindromo("anilina"));
